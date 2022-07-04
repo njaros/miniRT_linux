@@ -205,6 +205,7 @@ typedef struct	s_pixel_task
 	int				j;
 	t_var			*m;
 	pthread_mutex_t	mut;
+	pthread_mutex_t	sleep;
 }	t_pixel_task;
 
 typedef struct s_var{

@@ -11,6 +11,8 @@ void	init_cpu_task(t_pixel_task *pxt, int nb, t_var *m)
 		pxt[i].i = -1;
 		pxt[i].j = -1;
 		pthread_mutex_init(&pxt[i].mut, NULL);
+		pthread_mutex_init(&pxt[i].sleep, NULL);
+		pthread_mutex_lock(&pxt[i].sleep);
 		i++;
 	}
 }
@@ -63,7 +65,11 @@ void	thread_manager(t_var *m)
 {
 	int	i;
 	int	j;
+	int	k;
 
+	k = -1;
+	while (++k < m->nb_cpu -1)
+		pthread_mutex_unlock(&m->cpu_task[k].sleep);
 	i = -1;
 	while (++i < m->win.height)
 	{
@@ -71,4 +77,6 @@ void	thread_manager(t_var *m)
 		while (++j < m->win.lenght)
 			found_available_thread(i, j, m);
 	}
+	while (--k <= 0)
+		pthread_mutex_lock(&m->cpu_task[k].sleep);
 }

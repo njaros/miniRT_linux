@@ -8,9 +8,10 @@ void	*thread_routine(void *arg)
 
 	p = arg;
 	m = p->m;
-	dprintf(1, "rdy %d\n", p->i);
 	while (1)
 	{
+		pthread_mutex_lock(&p->sleep);
+		pthread_mutex_unlock(&p->sleep);
 		pthread_mutex_lock(&p->mut);
 		if (p->i != -1)
 		{
