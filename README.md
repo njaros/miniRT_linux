@@ -16,4 +16,5 @@ Use :
 Linux version of Minilibx only works with XMing
 
 Boss hsmits did a tutorial to make it works : https://harm-smits.github.io/42docs/libs/minilibx/getting_started.html
-Good luck
+
+Bonne journée !
