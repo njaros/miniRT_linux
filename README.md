@@ -9,12 +9,17 @@ Beware of overwarming.
 
 Use :
 
-1 : make
+0 : Initialisation
 
-2 : ./binary/miniRT map/****.rt
+miniRT_linux uses linux version of minilibx
 
 Linux version of Minilibx only works with XMing
 
 Boss hsmits did a tutorial to make it works : https://harm-smits.github.io/42docs/libs/minilibx/getting_started.html
+
+1 : make
+
+2 : ./binary/miniRT map/****.rt
+
 
 Bonne journée !
