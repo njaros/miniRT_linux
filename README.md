@@ -11,13 +11,13 @@ Use :
 
 0 : Initialisation
 
-miniRT_linux uses linux version of minilibx
+miniRT_linux uses a linux version of minilibx
 
-Linux version of Minilibx only works with XMing
+This Linux version of Minilibx only works with XMing
 
 Boss hsmits did a tutorial to make it works : https://harm-smits.github.io/42docs/libs/minilibx/getting_started.html
 
-still 0 :
+still 0 : (my short tutorial if you are too lazy to read the previous link)
 
 a) minilibx-linux requirements : type : "sudo apt-get update && sudo apt-get install xorg libxext-dev zlib1g-dev libbsd-dev"
 
