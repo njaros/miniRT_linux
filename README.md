@@ -6,7 +6,7 @@ Status : Not finished
 
 Warning !!
 
-MiniRT is a 3D motor without use of graphic hardware, this will use > 100% of your CPUs.
+This miniRT is a 3D motor without use of graphic hardware, this will use > 100% of your CPUs.
 
 Beware of overwarming.
 
