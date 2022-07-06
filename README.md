@@ -9,7 +9,7 @@ Beware of overwarming.
 
 Use :
 
-0 : Initialisation
+0 : Requirements
 
 miniRT_linux uses a linux version of minilibx
 
