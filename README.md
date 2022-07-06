@@ -25,7 +25,7 @@ b) if you are in windows 10, install and use WSL2 (link : https://docs.microsoft
 
 c) if you don't have Xming, install it (link : https://sourceforge.net/projects/xming/)
 
-d) execute Xlaunch > next > next > next > finish
+d) execute Xlaunch with the windows research bar, then do : > next > next > next > finish
 
 e) type "bash display.sh"
 
