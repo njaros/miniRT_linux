@@ -3,7 +3,7 @@ portage du miniRT sur un pc. Cette version a des bugs. Projet en duo avec jrinna
 
 Warning !!
 
-MiniRT is a 3D motor without use of graphic hardware, this will use > 100% of your GPU.
+MiniRT is a 3D motor without use of graphic hardware, this will use > 100% of your CPUs.
 
 Beware of overwarming.
 
