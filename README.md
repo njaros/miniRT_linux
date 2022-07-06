@@ -21,7 +21,7 @@ still 0 : (my short tutorial if you are too lazy to read the previous link)
 
 a) minilibx-linux requirements : type : "sudo apt-get update && sudo apt-get install xorg libxext-dev zlib1g-dev libbsd-dev"
 
-b) if you are in windows 10, install and use WSL2
+b) if you are in windows 10, install and use WSL2 (link : https://docs.microsoft.com/en-us/windows/wsl/install) have fun... 
 
 c) if you don't have Xming, install it (link : https://sourceforge.net/projects/xming/)
 
