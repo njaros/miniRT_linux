@@ -34,7 +34,7 @@ MLX := $(addprefix $(DIR_MLX)/,$(LST_MLX))
 
 #### OTHER ####
 CC := gcc
-CFLAGS := -Wall -Werror -Wextra -Ofast -march=native
+CFLAGS := -Wall -Werror -Wextra
 CFRAM := -Lmlx_linux -lmlx_Linux -L/usr/lib -Imlx_linux -lXext -lX11 -lm -lz
 NAME := $(DIR_BIN)/miniRT
 #### OTHER ####
