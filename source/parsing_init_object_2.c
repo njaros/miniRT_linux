@@ -52,6 +52,7 @@ t_pl	set_plan_up(t_cy cy)
 	t_pl	plan_up;
 	t_line	tool;
 
+	ft_memset(&plan_up, 0, sizeof(plan_up));
 	tool.dir = cy.vec;
 	tool.point = cy.coord;
 	plan_up.vec = cy.vec;
