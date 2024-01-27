@@ -1,14 +1,10 @@
 # miniRT_linux
 
-portage du miniRT sur un linux. Cette version a des bugs. Projet en duo avec jrinna
+portage du miniRT sur un linux. Cette version est multithreadee. Projet en duo avec Jonhatan Rinna
 
-Status : Not finished
-
-Warning !!
-
-This miniRT is a 3D motor without use of graphic hardware, this will use > 100% of your CPUs.
-
-Beware of overheating.
+C'est un petit logiciel de Ray Tracing permettant d'afficher des spheres, des plans et des cylindres.  
+Ce logiciel dispose egalement d'une gestion d'une ou plusieurs lumieres colorees.  
+L'option de reflection ne fonctionne pas du fait du multithreading.  
 
 Use :
 
@@ -23,5 +19,6 @@ miniRT_linux uses a linux version of minilibx
 
 2 : ./binary/miniRT map/****.rt
 
+3 : 
 
 Bonne journée !
